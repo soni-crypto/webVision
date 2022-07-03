@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='mediapipe.css')}}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/vraemtec.ico')}}" type="image/x-icon">
+    <title>VraemTec</title>
+
+</head>
+
+<body class="container">
+    <div class="contenedorDeNavegacion">
+        <div class="navLogos">
+            <img src="{{ url_for('static', filename='images/mediapipe.png')}}" class="imagenLogoMediaPipe" alt="">
+        </div>
+
+        <div class="navLinks">
+            <a href="https://mediapipe.dev/" target="_blank" class="navLink">Mediapipe</a>
+            <a href="https://soni-crypto.github.io/index.html" class="navLink">Sobre mi</a>
+            <a href="https://soni-crypto.github.io/templates/tablas.html" class="navLink">Pafixel</a>
+            <a href="https://soni-crypto.github.io/templates/project.html" class="navLink">RapPress</a>
+            <a href="{{ url_for('plantilla.index') }}" class="navLink">PyExcel</a>
+
+        </div>
+    </div>
+    <div class="primerParte">
+        <div class="opcionesDeDeteccion">
+            <div class="opcionesPrimarios"><a href="{{url_for('plantilla.retornaPlantilla')}}" class="letraOpcion">Malla facial</a></div>
+            <div class="opcionesPrimarios"><a href="{{url_for('plantilla.cara2')}}" class="letraOpcion">Rostro</a></div>
+            <div class="opcionesPrimarios"><a href="{{url_for('plantilla.manos')}}" class="letraOpcion">Manos</a></div>
+            <div class="opcionesPrimarios"><a href="{{url_for('plantilla.poses')}}" class="letraOpcion">Postura</a></div>
+            <div class="opcionesPrimariosYMAS"><span class="letraOpcion noAndroid">Objetos</span>
+            </div>
+            <div class="opcionesSecundarios"><a href="#" class="letraOpcion noAndroid">Silla</a></div>
+            <div class="opcionesSecundarios"><a href="#" class="letraOpcion noAndroid">Mesa</a></div>
+            <div class="opcionesSecundarios"><a href="#" class="letraOpcion noAndroid">Taza</a></div>
+        </div>
+
+        <div class="contenedorDeImagenVideo">
+            <img src="{{ url_for('formatoVideoCara2.video_feed2') }}" alt="">
+        </div>
+    </div>
+    <div class="segundaParte">
+        <div class="caja1DeSegundaParte">
+            <h3>ML en vivo en cualquier lugar</h3>
+            <p>MediaPipe ofrece soluciones de ML personalizables y multiplataforma de código abierto para medios en vivo y de transmisión.</p>
+
+            <span>
+                Desde 2012, Google lo ha estado usando internamente en varios productos y servicios. Inicialmente se desarrolló para el análisis en tiempo real de video y audio en YouTube. Gradualmente se integró en muchos más productos, como
+            </span>
+            <br>
+            <br><span>1. Perception system in NestCam </span>
+            <br><span>2. Object detection by Google Lens</span>
+            <br><span>3. Augmented Reality Ads</span>
+            <br><span>4. Google Photos</span>
+            <br><span>5. Google Home</span>
+            <br><span>6. Gmail</span>
+            <br><span>7. Cloud Vision API, etc.</span>
+
+            <p>"MediaPipe es una de las bibliotecas más compartidas y reutilizables para el procesamiento de medios dentro de Google".</p>
+        </div>
+        <div class="proyectosConMediapipe">
+            <div class="manos">
+                <img src="{{ url_for('static', filename='images/hand.jpg')}}" class="imagenHandMediaPipe" alt="mediapipe manos">
+                <div class="paddingTexto">
+                    <p>Seguimiento de manos 21 puntos de referencia en 3D con compatibilidad con varias manos, basado en un modelo de puntos de referencia de mano y detección de palma de alto rendimiento </p>
+                </div>
+            </div>
+            <div class="posturas">
+                <img src="{{ url_for('static', filename='images/pose.jpg')}}" class="imagenPosturaMediaPipe" alt="mediapipe posturas">
+                <div class="paddingTexto">
+                    <p>Detección y seguimiento de poses humanas Seguimiento de poses del cuerpo humano de alta fidelidad, que infiere hasta 33 puntos de referencia 3D de cuerpo completo a partir de fotogramas de video RGB</p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="footer">
+            <h4> &copy; VraemTec 2022 - Over Rimachi</h4>
+        </div>
+
+    </div>
+</body>
+
+</html>

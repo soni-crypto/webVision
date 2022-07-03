@@ -1,0 +1,101 @@
+﻿id;nombre;apellido;edad;idiomas;lenguajes;especializacion;País;Sueldo mínimo;votos;puntaje;likes;no like;experiencia en años
+1;Jose;Carrasco;19;español;python;Big Data;Perú;$4.500,00;237;2370;711;None;2
+2;Julian;Huachaca;29;español;python;Machine Learning;Perú;$4.500,00;129;1290;387;None;3
+3;Smith;Palacios;34;español;python;Big Data;Perú;$4.500,00;345;3450;1035;None;1
+4;Ayoub;Cabrera;23;español;python;Big Data;Perú;$4.500,00;128;1280;384;None;2
+5;Javier;Olarte;25;español;python;Machine Learning;Perú;$4.500,00;432;4320;1296;None;3
+6;Hector;Quilca;45;español;python;Data Science;Brazil;$4.500,00;132;1320;396;None;3
+7;Kiri;Darker;23;español;python;Software engineer;Brazil;$4.500,00;498;4980;1494;None;3
+8;Karla;Safir;32;español;python;Hacking Etico;Brazil;$4.500,00;234;2340;702;None;2
+9;Yenifer;Guzman;19;español;python;Big Data;Brazil;$4.500,00;121;1210;363;None;4
+10;Litber;Lifoncio;56;ingles;python;Big Data;Brazil;$4.500,00;433;4330;1299;None;4
+11;Cristina;Taipe;34;ingles;python;Neuronal Networks;Argentina;$4.000,00;283;2830;849;None;5
+12;Alonso;Curo;54;ingles;python;Neuronal Networks;Argentina;$4.000,00;297;2970;891;None;3
+13;Dasha;Espinoza;23;ingles;python;Web Development;Argentina;$4.000,00;267;2670;801;None;2
+14;Viviana;Valencia;43;ingles;javascript;Web Development;Argentina;$4.000,00;245;2450;735;None;1
+15;Jhon;Pajuelo;34;ingles;javascript;Video Games Development;Argentina;$4.000,00;123;1230;369;None;2
+16;Wilder;Huaman;35;ingles;javascript;Video Games Development;Argentina;$4.000,00;167;1670;501;None;3
+17;Shantal;Bonnie;34;ingles;javascript;Artificial Vision;Argentina;$4.000,00;189;1890;567;None;4
+18;Cesar;Lucar;23;ingles;javascript;Web Development;Colombia;$4.000,00;175;1750;525;None;5
+19;Pablo;Aguirre;43;ingles;javascript;Artificial Vision;Colombia;$4.000,00;145;1450;435;None;4
+20;Summer;Sanchez;23;español;javascript;Artificial Vision;Colombia;$4.200,00;233;2330;699;None;3
+21;Wagner;Curi;43;español;javascript;Cloud Architect;Colombia;$4.200,00;478;4780;1434;None;2
+22;Dayana;Guitierrez;24;español;javascript;Cloud Architect;Colombia;$4.200,00;433;4330;1299;None;3
+23;Lenin;Venegas;28;español;javascript;Video Games Development;Colombia;$4.200,00;453;4530;1359;None;4
+24;Anyeli;Cancer;26;español;python;Big Data;Colombia;$4.200,00;487;4870;1461;None;5
+25;Yuli;Palomino;26;español;python;Video Games Development;Colombia;$4.200,00;233;2330;699;None;4
+26;Romina;Quispe;25;español;python;Video Games Development;Colombia;$4.200,00;267;2670;801;None;3
+27;Siome;Paez;24;español;python;Web Development;Colombia;$4.200,00;234;2340;702;None;2
+28;Yeferson;Figueroa;27;español;python;Cloud Architect;México;$4.200,00;298;2980;894;None;2
+29;Sarai;Pari;23;español;python;Software engineer;México;$4.200,00;376;3760;1128;None;3
+30;Efrain;Whiski;32;español;python;Deep Learning;México;$4.200,00;356;3560;1068;None;4
+31;Shishimi;Arenas;34;español;python;Software engineer;México;$4.200,00;345;3450;1035;None;5
+32;Yeni;Jhesly;35;ingles;python;Artificial Vision;México;$5.000,00;392;3920;1176;None;4
+33;Damian;Paucar;32;ingles;python;Artificial Vision;México;$5.000,00;356;3560;1068;None;3
+34;Quelu;Ordoñez;37;ingles;python;Neuronal Networks;México;$5.000,00;123;1230;369;None;2
+35;Thiago;Huachaca;35;ingles;php;Cloud Architect;México;$5.000,00;236;2360;708;None;2
+36;Karla;Peña;43;ingles;php;Cloud Architect;México;$5.000,00;493;4930;1479;None;1
+37;Mirely;Aspajo;39;ingles;php;Software engineer;Chile;$5.000,00;221;2210;663;None;2
+38;Jhan;Briceño;45;ingles;php;Software engineer;Chile;$4.700,00;117;1170;351;None;1
+39;Fabricio;Falla;54;ingles;php;Software engineer;Chile;$4.700,00;342;3420;1026;None;2
+40;Kevin;Quillcate;34;ingles;php;Web Development;Chile;$4.700,00;457;4570;1371;None;3
+41;Alexis;Iman;52;ingles;php;Artificial Vision;Chile;$4.700,00;234;2340;702;None;4
+42;Betzi;Valdiviezo;43;ingles;php;Web Development;Chile;$4.700,00;328;3280;984;None;5
+43;Gabriel;Ñaña;34;ingles;php;Data Base Expert;Chile;$4.700,00;238;2380;714;None;4
+44;Liz;Fernadez ;37;ingles;php;Data Base Expert;Chile;$4.700,00;183;1830;549;None;5
+45;Nandi ;Torres;38;ingles;php;Cloud Architect;Bolivia;$4.700,00;276;2760;828;None;4
+46;Levy;Landeo;39;ingles;php;Web Development;Bolivia;$4.700,00;245;2450;735;None;3
+47;Steisy;Jabo;29;ingles;php;Software engineer;Bolivia;$4.700,00;378;3780;1134;None;2
+48;Maribel;Huaman;27;español;python;Web Development;Bolivia;$4.700,00;285;2850;855;None;2
+49;Lenith;Mendoza;28;español;python;Software engineer;Bolivia;$4.700,00;356;3560;1068;None;1
+50;Mayeli;Herrera;29;español;python;Informatic Security;Bolivia;$4.700,00;163;1630;489;None;2
+51;Ketelin;Guzman;37;español;python;Hacking Etico;Bolivia;$4.700,00;127;1270;381;None;3
+52;Fabiola;Cruz;34;español;python;Artificial Vision;Perú;$4.700,00;145;1450;435;None;4
+53;Paulina;Taype;23;ingles;python;Software engineer;Perú;$4.600,00;198;1980;594;None;5
+54;Yulisa;Lunazco;27;ingles;python;Cloud Architect;Perú;$4.600,00;153;1530;459;None;4
+55;Daniela;Lopez;21;ingles;python;Cloud Architect;Perú;$4.600,00;172;1720;516;None;3
+56;Lino;Condori;22;ingles;python;Cyber Security;Perú;$4.600,00;482;4820;1446;None;2
+57;Zeus;Lapa;22;ingles;python;Informatic Security;Perú;$4.600,00;172;1720;516;None;1
+58;Kevin;Conde;21;ingles;python;Cloud Architect;Perú;$4.600,00;374;3740;1122;None;2
+59;Jhoel;Casas;23;ingles;python;Software engineer;Brazil;$4.600,00;264;2640;792;None;3
+60;Lorena;Quiñones;25;español;java;Hacking Etico;Brazil;$4.600,00;273;2730;819;None;4
+61;Adrina;Calsin;34;español;java;App Development;Brazil;$5.300,00;493;4930;1479;None;5
+62;Gladis;Minaya;43;español;java;App Development;Brazil;$5.300,00;253;2530;759;None;4
+63;Jose;Rua;32;español;java;App Development;Brazil;$5.300,00;236;2360;708;None;3
+64;Pablo;Chavez;38;español;java;Cloud Architect;Brazil;$5.300,00;453;4530;1359;None;2
+65;Yomar;Acosta;37;español;java;App Development;Brazil;$5.300,00;264;2640;792;None;1
+66;Ana;Guerra;36;español;java;Web Development;Uruguay;$5.300,00;372;3720;1116;None;2
+67;Cristina;Garabundo;33;español;java;Video Games Development;Uruguay;$5.300,00;342;3420;1026;None;3
+68;Paulo;Garcia;39;español;java;Web Development;Uruguay;$5.300,00;387;3870;1161;None;4
+69;Kyomachi;Hinostrosa;30;español;java;Cloud Architect;Uruguay;$5.300,00;284;2840;852;None;5
+70;Damaris;Castillo;20;español;java;Software engineer;Uruguay;$5.300,00;274;2740;822;None;4
+71;Hector;Sanches;30;español;php;Software engineer;Uruguay;$4.300,00;364;3640;1092;None;3
+72;Maycol;Recalde;40;español;php;Web Development;Uruguay;$4.300,00;436;4360;1308;None;2
+73;Manuel;Tincopa;35;español;php;Web Development;Paraguay;$4.300,00;329;3290;987;None;1
+74;Josue;Delgado;48;español;php;Web Development;Paraguay;$4.300,00;172;1720;516;None;2
+75;Luis;Peralta;47;español;php;Cloud Architect;Paraguay;$4.300,00;142;1420;426;None;3
+76;Alex;Santos;36;español;php;Web Development;Paraguay;$4.300,00;389;3890;1167;None;4
+77;David;Guerra;46;español;php;Software engineer;Paraguay;$4.300,00;233;2330;699;None;5
+78;Leonel;Ancajima;56;español;php;Software engineer;Costa Rica;$4.300,00;228;2280;684;None;4
+79;Maria;Bleed;54;español;php;Software engineer;Costa Rica;$4.300,00;329;3290;987;None;5
+80;Ruth;Paz;53;ingles;php;App Development;Costa Rica;$4.300,00;364;3640;1092;None;3
+81;Rubria;Tafur;43;ingles;go;App Development;Costa Rica;$4.300,00;428;4280;1284;None;2
+82;Obed;Pizarro;23;ingles;go;App Development;Costa Rica;$4.300,00;482;4820;1446;None;3
+83;Dylan;Cabrera;45;ingles;go;Video Games Development;Brazil;$4.400,00;392;3920;1176;None;2
+84;Andrea;Jara;45;ingles;go;Video Games Development;Brazil;$4.400,00;477;4770;1431;None;3
+85;Julio;Mayanvilca;47;ingles;go;Video Games Development;Brazil;$4.400,00;290;2900;870;None;2
+86;Eben;Millan;36;ingles;go;Web Development;Brazil;$4.400,00;190;1900;570;None;3
+87;Yeiko;Culqui;28;ingles;go;Cloud Architect;Brazil;$4.400,00;245;2450;735;None;4
+88;Angie;Vilchez;35;ingles;go;Software engineer;Brazil;$4.400,00;230;2300;690;None;3
+89;Edison;Zea;35;ingles;go;Software engineer;México;$4.400,00;230;2300;690;None;2
+90;Rosa;Escobar;46;ingles;rubi;Software engineer;México;$4.400,00;483;4830;1449;None;1
+91;Elva;Castro;43;ingles;rubi;Hacking Etico;México;$4.400,00;263;2630;789;None;2
+92;Rodrigo;Canchaya;23;ingles;rubi;Hacking Etico;México;$4.400,00;210;2100;630;None;1
+93;Helena;Yaranga;21;ingles;rubi;Hacking Etico;México;$4.400,00;340;3400;1020;None;1
+94;Celia;Yance;19;ingles;rubi;Cyber Security;Perú;$4.400,00;420;4200;1260;None;2
+95;Maribel;Yupanqui;18;español;python;Informatic Security;Perú;$4.400,00;374;3740;1122;None;1
+96;Ana;Gomez;18;español;python;Informatic Security;Perú;$4.400,00;304;3040;912;None;2
+97;Yesica;Lopez;18;español;python;Data Science;Perú;$4.400,00;302;3020;906;None;3
+98;Margoth;Pariona;18;español;python;App Development;Ecuador;$5.300,00;360;3600;1080;None;4
+99;Karina;Figueroa;19;español;python;Informatic Security;Ecuador;$5.300,00;402;4020;1206;None;3
+100;Paola;Amante;19;español;python;Big Data;Ecuador;$5.300,00;370;3700;1110;None;2

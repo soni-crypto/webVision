@@ -1,0 +1,176 @@
+:root {
+    --letraGoogle: verdana;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(46, 46, 46);
+}
+
+.contenedorDeExcel {
+    width: 100%;
+    max-height: 70vh;
+    min-height: 60vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    /* display: flex; */
+    justify-content: center;
+    border-radius: .3rem;
+    background-color: rgb(16, 14, 70);
+}
+
+.contenedorDeExcel::-webkit-scrollbar {
+    background-color: rgb(255, 255, 255);
+    border-radius: .3rem;
+    height: .5rem;
+    width: .5rem;
+}
+
+.contenedorDeExcel::-webkit-scrollbar-thumb {
+    background-color: rgb(66, 66, 66);
+    border-radius: .3rem;
+}
+
+.contenedorDeExcel::-webkit-scrollbar-corner {
+    width: 0;
+}
+
+.tablaDeEntrada {
+    /* width: 100%; */
+    /* height: 100%; */
+    border-radius: .2rem;
+    border-collapse: collapse;
+    /* table-layout: fixed; */
+}
+
+.thTitulos {
+    background-color: rgb(42, 42, 42);
+    color: white;
+    height: 2rem;
+    width: 6rem;
+    text-align: left;
+}
+
+.thTitulos,
+.columnaDeDatos {
+    font-size: .8rem;
+    /* padding: 0rem .1rem 0rem .1rem; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.columnaDeDatos {
+    border-collapse: collapse;
+    height: 2rem;
+    width: 6rem;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.filaDeDatos {
+    height: 2rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+
+.filaDeDatos:nth-child(even) {
+    background-color: rgb(211, 219, 255);
+    color: rgb(55, 55, 55);
+}
+
+.contenedorDeBotonesModificadores {
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorDeFormularioParticular {
+    display: inline-flex;
+    border-radius: .3rem;
+    font-family: var(--letraGoogle);
+    font-size: .8rem;
+    height: auto;
+    width: 14rem;
+    margin-left: .4rem;
+    margin-bottom: .5rem;
+    padding: .4rem .4rem .4rem .4rem;
+    /* border: 4px solid rgb(181, 181, 181); */
+    background-color: rgb(251, 251, 251);
+}
+
+.contenedorDeFormularioParticularDoble {
+    /* display: flex;*/
+    flex-direction: column;
+    background-color: rgb(131, 131, 255);
+}
+
+.contenedorDeFormularioParticularVinculable {
+    background-color: rgb(85, 165, 42);
+}
+
+.contenedorDeFormularioParticular label input {
+    width: 3rem;
+    padding: .3rem;
+    border-radius: .3rem;
+    border: 3px solid rgb(178, 178, 255);
+    outline: none;
+}
+
+.btnSubmit {
+    display: none;
+}
+
+.contenedorDeFormularioParticularRojos {
+    background-color: rgb(188, 65, 65);
+    color: #ffffff;
+}
+
+.thTitulos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navPyExcel {
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    padding: .2rem 0 .2rem 0;
+    background-color: rgb(241, 241, 241);
+}
+
+.navPyExcel a {
+    color: rgb(0, 72, 135);
+    text-decoration: none;
+    font-family: var(--letraGoogle);
+    margin: .3rem 2rem 0 0;
+}
+
+.navPyExcel a:hover {
+    color: rgb(36, 36, 36);
+}
+
+@media screen and (max-width: 900px) {
+    .contenedorDeFormularioParticular {
+        width: 43%;
+        font-size: .7rem;
+    }
+    .contenedorDeFormularioParticular label input {
+        width: 2rem;
+    }
+    .contenedorDeExcel {
+        width: 100%;
+        /* padding-left: 10rem; */
+        justify-content: left;
+    }
+    .tablaDeEntrada {
+        width: 100%
+    }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/vraemtec.ico')}}" type="image/x-icon">
+    <title>PyExcelProcess</title>
+</head>
+
+<body>
+    <div class="contenedorDeExcel">
+        <table class="tablaDeEntrada">
+            <thead>
+                {% for t in cabeza %}
+                <th class="thTitulos">{{t}}</th>{% endfor %}
+            </thead>
+            <tbody>
+                {% for i in cuerpo %}
+                <tr class="filaDeDatos">{% for d in i %}
+                    <td class="columnaDeDatos">{{d}}</td>{% endfor%}</tr>{% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="navPyExcel">
+        <a href="https://soni-crypto.github.io/index.html">Sobre mi</a>
+        <a href="https://soni-crypto.github.io/templates/tablas.html">Pafixel</a>
+        <a href="https://soni-crypto.github.io/templates/project.html">RapPress</a>
+        <a href="{{ url_for('plantilla.retornaPlantilla') }}" class="navLink">Mediapipe</a>
+    </div>
+    <div class="contenedorDeBotonesModificadores">
+        <form action="{{ url_for('plantilla.process') }}" method="post">
+            <div class="contenedorDeFormularioParticular contenedorDeFormularioParticularVinculable"><label for="numeroDeFilas">Numero de filas<input type="number" id="numeroDeFilas" name="numeroDeFilas" placeholder="Num"></label></div>
+            <div class="contenedorDeFormularioParticular contenedorDeFormularioParticularVinculable"><label for="numeroColumnas">Numero de columnas<input type="number" id="numeroDeColumnas" name="numeroDeColumnas" placeholder="Num"></label></div>
+            <div class="contenedorDeFormularioParticular contenedorDeFormularioParticularDoble"><label for="desdeLaFila">Desde la fila<input type="number" id="desdeLaFila" name="desdeLaFila" placeholder="Num"></label><label for="hastaLaFila">Hasta la fila<input type="number" id="hastaLaFila" name="hastaLaFila" placeholder="Num"></label></div>
+            <div class="contenedorDeFormularioParticular contenedorDeFormularioParticularDoble"><label for="desdeLaColumna">Desde la columna<input type="number" id="desdeLaColumna" name="desdeLaColumna" placeholder="Num"></label><label for="hastaLaColumna">Hasta la columna<input type="number" id="hastaLaColumna" name="hastaLaColumna" placeholder="Num"></label></div>
+            <div class="contenedorDeFormularioParticular"><label for="nPrimerasFilas">#N primeras filas<input type="number" id="nPrimerasFilas" name="nPrimerasFilas" placeholder="Num"></label></div>
+            <div class="contenedorDeFormularioParticular"><label for="nUltimasFilas">#N últimas filas<input type="number" id="nUltimasFilas" name="nUltimasFilas" placeholder="Num"></label></div>
+            <div class="contenedorDeFormularioParticular"><label for="soloLaFila">Mostrar solo la fila<input type="number" id="soloLaFila" name="soloLaFila" placeholder="Num"></label></div>
+            <div class="contenedorDeFormularioParticular"><label for="soloLaColumna">Mostrar solo la columna <input type="number" id="soloLaColumna" name="soloLaColumna" placeholder="Num"></label></div>
+            <div class="contenedorDeFormularioParticular contenedorDeFormularioParticularRojos"><label for="lasFilas">Mostrar las filas  <input type="text" id="lasFilas" name="lasFilas" placeholder="10 23"></label></div>
+            <div class="contenedorDeFormularioParticular contenedorDeFormularioParticularRojos "><label for="lasColumnas">Mostrar las columnas <input type="text" id="lasColumnas" name="lasColumnas" placeholder="1 3"></label></div>
+            <button type="submit" class="btnSubmit">Cargar Datos</button>
+        </form>
+    </div>
+</body>
+
+</html>
